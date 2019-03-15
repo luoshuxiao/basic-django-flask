@@ -1,0 +1,16 @@
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>internationalization</title>
+</head>
+<body>
+       <!--第一种-->
+       <div>{% blocktrans %}hello world!{% endblocktrans %}</div>
+       <!--第二种-->
+       <div>{% trans "ohell" %}</div>
+       <div>{{ data }}</div>
+</body>
+</html>
